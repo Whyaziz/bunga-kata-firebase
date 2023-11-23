@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "278978682620",
+    "project_id": "bunga-kata-firebase",
+    "storage_bucket": "bunga-kata-firebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:278978682620:android:93f0ebec219622d5254179",
+        "android_client_info": {
+          "package_name": "com.android.bungakatafirebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgVV3Sa5gaJ6S-G9i9B8P8TQ-b5ycGMNA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

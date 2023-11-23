@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_navbar"
+    app:startDestination="@id/puisiFragmet">
+
+
+    <fragment
+        android:id="@+id/puisiFragmet"
+        android:name="com.android.bungakatafirebase.PuisiFragment"
+        android:label="fragment_puisi_fragmet"
+        tools:layout="@layout/fragment_puisi" />
+    <fragment
+        android:id="@+id/addPuisiFragment"
+        android:name="com.android.bungakatafirebase.AddPuisiFragment"
+        android:label="fragment_add_puisi"
+        tools:layout="@layout/fragment_add_puisi" >
+        <action
+            android:id="@+id/action_addPuisiFragment_to_puisiFragmet"
+            app:destination="@id/puisiFragmet" />
+    </fragment>
+
+</navigation>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_list"
+    android:layout_marginVertical="4dp"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/txt_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:text="Judul"/>
+
+        <TextView
+            android:id="@+id/txt_writer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Penulis"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layout_hold"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:gravity="end"
+        android:layout_weight="1"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/btn_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_edit_24"
+            android:padding="8dp"/>
+
+        <ImageView
+            android:id="@+id/btn_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_delete_24"
+            android:padding="8dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
